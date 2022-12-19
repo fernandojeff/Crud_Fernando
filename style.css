@@ -1,0 +1,92 @@
+:root {
+    --fundo: #3b3936;
+    --texto: #b2bebf;
+    --important: #BD2A2E;
+    --linha: #486966;
+    --fundo2: #889C9B;
+}
+.meio {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+* {
+    font-family: sans-serif;
+    color: var(--texto);
+    text-align: center;
+}
+form {
+    color: var(--texto);
+    margin-bottom: 0px;
+    
+}
+
+body {
+    background-color: var(--fundo);
+    color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--important);
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: var(--texto);
+    margin: 0px;
+}
+
+fieldset {
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid var(--linha);
+}
+
+legend {
+    margin: auto;
+    font-size: xx-large;
+    color: var(--important);
+}
+
+input {
+    background-color: var(--fundo2);
+    border: none;
+    border-radius:42px;
+    margin: 2px;
+    color: #fff;
+}
+
+.botao {
+	background-color:#bd2a2f;
+	border-radius:42px;
+	border:1px solid #a62328;
+	display:inline-block;
+	cursor:pointer;
+	color:#cadadb;
+	font-family:sans-serif;
+	font-size:12px;
+	padding:2px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bd2a2f;
+    margin-top: 10px;
+}
+.botao:hover {
+	background-color:#942226;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+table, tr, td {
+    margin: auto;
+    text-align: center;
+    font-size:large;
+    border-collapse: collapse;
+    padding: 5px;
+}
